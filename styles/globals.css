@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-white text-black overflow-x-hidden;
+    @apply bg-white w-full text-black overflow-x-hidden;
   }
   p {
     @apply text-[14px];
