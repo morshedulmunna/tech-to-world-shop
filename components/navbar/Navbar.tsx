@@ -45,7 +45,7 @@ const Navbar = (props: Props) => {
                   <li
                     key={item.id}
                     className={`duration-300 ease-in-out  
-                "hover:bg-pink-500 rounded-md"} whitespace-nowrap`}
+                "hover:bg-pink-500 rounded-md"} whitespace-nowrap hover:text-pink-500`}
                   >
                     <Link href={item.href as string}> {item.label} </Link>
                   </li>
@@ -86,7 +86,7 @@ const Navbar = (props: Props) => {
                 key={item.id}
                 className={` duration-300 ease-in-out  my-6 ${
                   item.id !== 2
-                    ? "hover:bg-pink-500 w-fit mx-auto px-6 py-1 rounded-md"
+                    ? "hover:text-pink-500 w-fit mx-auto px-6 py-1 rounded-md"
                     : null
                 }`}
               >

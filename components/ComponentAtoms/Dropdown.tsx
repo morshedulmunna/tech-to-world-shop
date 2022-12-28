@@ -18,12 +18,14 @@ const Dropdown = ({ label, dropMenu }: Props) => {
 
   return (
     <>
-      <div ref={ref} className="md:relative">
+      <div
+        onMouseEnter={() => setDropdownToggle(true)}
+        onMouseLeave={() => setDropdownToggle(false)}
+        ref={ref}
+        className="md:relative"
+      >
         {/* DropDown Label */}
-        <div
-          onClick={() => setDropdownToggle(!dropdownToggle)}
-          className="flex justify-center items-center cursor-pointer "
-        >
+        <div className="flex justify-center items-center cursor-pointer ">
           <span>{label}</span>
           <MdKeyboardArrowDown
             className={`${
@@ -39,7 +41,7 @@ const Dropdown = ({ label, dropMenu }: Props) => {
             {dropMenu.map((item) => (
               <li
                 key={item.id}
-                className="my-3 hover:bg-pink-500 duration-300 ease-in-out"
+                className="my-3 hover:text-pink-500 duration-300 ease-in-out w-fit mx-auto"
               >
                 <Link href={item?.href}> {item?.label} </Link>
               </li>
