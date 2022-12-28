@@ -15,7 +15,7 @@ const Navbar = (props: Props) => {
 
   return (
     <>
-      <div ref={ref} className="shadow relative  md:h-full">
+      <div ref={ref} className=" shadow relative  md:h-full">
         <div className="flex justify-center items-center bg-white md:containers">
           <div className="flex justify-between items-center w-full px-4 py-4 z-20 ">
             <Logo white={false} />
