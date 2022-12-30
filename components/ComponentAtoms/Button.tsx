@@ -36,7 +36,7 @@ const Button = ({ type, label, className, variant, onClick }: Props) => {
   return (
     <button
       onClick={onClick}
-      className={`w-full py-1 rounded-md px-2 ${className} ${buttonStyle.addVariant()} `}
+      className={`py-1 rounded-md px-2 ${className} ${buttonStyle.addVariant()} `}
     >
       {label}
     </button>

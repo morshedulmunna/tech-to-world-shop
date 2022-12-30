@@ -1,9 +1,9 @@
-import React from "react";
+import React, { JSXElementConstructor, ReactElement } from "react";
 import Navbar from "../components/navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 
 type Props = {
-  children: React.ReactElement;
+  children: ReactElement<any, string | JSXElementConstructor<any>>;
 };
 
 const HomeLayout = (props: Props) => {

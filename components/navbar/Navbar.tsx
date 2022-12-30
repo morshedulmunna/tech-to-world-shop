@@ -14,8 +14,8 @@ const Navbar = (props: Props) => {
   const [navToggle, setNavToggle] = detectOutside(ref);
 
   return (
-    <>
-      <div ref={ref} className=" shadow relative  md:h-full">
+    <div className="sticky top-0 z-20 bg-white">
+      <div ref={ref} className=" shadow-sm relative  md:h-full ">
         <div className="flex justify-center items-center bg-white md:containers">
           <div className="flex justify-between items-center w-full px-4 py-4 z-20 ">
             <Logo white={false} />
@@ -96,7 +96,7 @@ const Navbar = (props: Props) => {
           })}
         </ul>
       </div>
-    </>
+    </div>
   );
 };
 

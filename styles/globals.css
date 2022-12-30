@@ -19,6 +19,6 @@
 
 @layer components {
   .containers {
-    @apply container mx-auto md:container lg:container px-0 lg:px-6;
+    @apply container  md:container lg:container px-0 lg:px-6 mx-auto;
   }
 }
