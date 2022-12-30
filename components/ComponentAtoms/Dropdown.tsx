@@ -35,7 +35,7 @@ const Dropdown = ({ label, dropMenu }: Props) => {
             }`}
           />
         </div>
-        {/* Child Element   */}
+        {/* DropDown Child Element   */}
         {dropdownToggle && (
           <ul className=" md:absolute z-10 md:bg-white md:w-full md:p-3  md:rounded-md lg:shadow-md ">
             {dropMenu.map((item) => (

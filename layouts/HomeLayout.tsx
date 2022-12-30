@@ -3,7 +3,7 @@ import Navbar from "../components/navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 
 type Props = {
-  children: ReactElement<any, string | JSXElementConstructor<any>>;
+  children: JSX.Element | JSX.Element[];
 };
 
 const HomeLayout = (props: Props) => {
