@@ -1,6 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import productItem from "../../assets/product/image1.jpg";
+import { AiFillStar } from "react-icons/ai";
+import ProductImage from "../ComponentAtoms/ProductImage";
 
 type Props = {};
 
@@ -14,17 +16,21 @@ const Product = (props: Props) => {
         </span>
 
         {/* This Div Only Show Product Image  */}
-        <div className="w-full h-fit rounded-lg bg-gray-100">
-          <Image className="rounded-lg" src={productItem} alt="Shop Item" />
-        </div>
+        <ProductImage width={""} />
 
         {/* This is Product tittle and price Ui Show Section */}
-        <div className="p-1 w-full">
+        <div className="p-1 w-full mt-4">
           <div className="flex justify-between items-center text-[14px] ">
-            <span>Category VR GLasses</span>
-            <span> ***** </span>
+            <span className="text-pink-500">Category VR GLasses</span>
+            <div className="flex justify-center items-center">
+              <AiFillStar />
+              <AiFillStar />
+              <AiFillStar />
+              <AiFillStar />
+              <AiFillStar />
+            </div>
           </div>
-          <h3 className="text-blue-500 text-[18px] hover:text-red-500 duration-300 ease-in-out py-1">
+          <h3 className="text-blue-500 text-[18px] hover:text-pink-500 duration-300 ease-in-out py-1">
             Headphones Model JHSKR Well Class Product
           </h3>
           <p className="text-[16px]"> $45.00 </p>

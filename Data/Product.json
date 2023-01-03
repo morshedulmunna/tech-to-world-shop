@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 12",
+    "description": "The latest smartphone from Apple, featuring a Super Retina XDR display, 5G capability, and a Ceramic Shield front cover.",
+    "price": 799,
+    "image": null,
+    "rating": 5.0,
+    "stock": 29,
+    "category": "Smartphones"
+  },
+  {
+    "id": 2,
+    "name": "MacBook Pro",
+    "description": "A powerful laptop with a stunning Retina display, the latest processors, and all-day battery life.",
+    "price": 1499,
+    "image": null,
+    "rating": 5.0,
+    "stock": 29,
+    "category": "Laptops"
+  },
+  {
+    "id": 3,
+    "name": "HP OfficeJet Pro 9015",
+    "description": "A reliable all-in-one printer that can print, scan, copy, and fax documents and features automatic document feeding and two-sided printing.",
+    "price": 249,
+    "image": null,
+    "rating": 5.0,
+    "stock": 29,
+    "category": "Printers"
+  },
+  {
+    "id": 4,
+    "name": "Fitbit Charge 4",
+    "description": "A fitness tracker with GPS, a heart rate monitor, and built-in Amazon Alexa capabilities.",
+    "price": 149,
+    "image": null,
+    "rating": 5.0,
+    "stock": 29,
+    "category": "Wearable Tech"
+  },
+  {
+    "id": 5,
+    "name": "Samsung Galaxy S21",
+    "description": "A high-performance smartphone with a sleek design, 5G capability, and a triple camera system.",
+    "price": 799,
+    "image": null,
+    "rating": 5.0,
+    "stock": 29,
+    "category": "Smartphones"
+  },
+  {
+    "id": 6,
+    "name": "Dell XPS 13",
+    "description": "A lightweight laptop with a stunning InfinityEdge display and long battery life, perfect for on-the-go productivity.",
+    "price": 999,
+    "image": null,
+    "rating": 5.0,
+    "stock": 29,
+    "category": "Laptops"
+  },
+  {
+    "id": 7,
+    "name": "Microsoft Surface Pro 7",
+    "description": "A versatile 2-in-1 laptop that can be used as a tablet, featuring a high-resolution touch screen and a detachable keyboard.",
+    "price": 899,
+    "image": null,
+    "rating": 5.0,
+    "stock": 29,
+    "category": "Laptops"
+  },
+  {
+    "id": 8,
+    "name": "Bose QuietComfort 35 II",
+    "description": "Noise-cancelling headphones with a comfortable, over-ear design and Google Assistant built-in.",
+    "price": 349,
+    "image": null,
+    "rating": 5.0,
+    "stock": 29,
+    "category": "Headphones"
+  },
+  {
+    "id": 9,
+    "name": "Logitech MX Master 3",
+    "description": "A wireless mouse with a comfortable, ergonomic design and advanced features like gesture control and a 4000 DPI sensor.",
+    "price": 99,
+    "image": null,
+    "rating": 5.0,
+    "stock": 29,
+    "category": "Computer Accessories"
+  },
+  {
+    "id": 10,
+    "name": "Samsung T7 Portable SSD",
+    "description": "A fast and reliable external hard drive with a compact, portable design and optional password protection.",
+    "price": 99,
+    "image": null,
+    "rating": 5.0,
+    "stock": 29,
+    "category": "Storage Devices"
+  }
+]
