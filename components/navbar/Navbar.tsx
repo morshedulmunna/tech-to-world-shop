@@ -51,13 +51,15 @@ const Navbar = (props: Props) => {
                   </li>
                 );
               })}
-              <Button
-                label="Login"
-                onClick={() => console.log("button Click")}
-                type={"button"}
-                className={""}
-                variant="primary-outline"
-              />
+              <Link href="/login">
+                <Button
+                  label="Login"
+                  onClick={() => console.log("button Click")}
+                  type={"button"}
+                  className={""}
+                  variant="primary-outline"
+                />
+              </Link>
             </div>
           </ul>
         </div>

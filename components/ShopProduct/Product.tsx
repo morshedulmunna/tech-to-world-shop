@@ -30,7 +30,7 @@ const Product = (props: Props) => {
               <AiFillStar />
             </div>
           </div>
-          <h3 className="text-blue-500 text-[18px] hover:text-pink-500 duration-300 ease-in-out py-1">
+          <h3 className="text-blue-500 text-[16px] hover:text-pink-500 duration-300 ease-in-out py-1">
             Headphones Model JHSKR Well Class Product
           </h3>
           <p className="text-[16px]"> $45.00 </p>
